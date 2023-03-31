@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    background: rgb(49, 34, 255);
+}
+
+section{
+    display: grid;
+    justify-content: center;
+}
+
+.card{
+    direction: center;
+    height: 500px;
+    width: 300px;
+    background: rgb(123, 138, 138);
+    
+    border-radius: 20px;
+    margin: 100px;
+    border: 2px rgb(183, 175, 175);
+}
+
+.card div{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 180px;
+    overflow: hidden;
+}
+
+.fotoPerfil{
+    position: absolute;
+    top: 20px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h1{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    top:30px;
+}
+
+
+.card p {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+   
+}
+
+.datos-personales{
+    display: grid;
+    position: relative;
+}
+
+.skills {
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    text-align: left;
+    
+}
+.skills strong{
+    font-size: 15px;
+}
+
+.lista-contacto{
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    margin-right: 20px;
+    margin-left: 18px;
+    padding: 0;
+}
+
+.lista-contacto strong{
+    font-size: 15px;
+}
+
+
+.lista-contacto img{
+    width: 15px;
+}
+
