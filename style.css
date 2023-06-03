@@ -14,7 +14,7 @@ body{
 
 .card{
     width: 100%;
-    height: 500px;
+    height: 500px; 
     background: rgb(123, 138, 138);
     border-radius: 20px;
 }
