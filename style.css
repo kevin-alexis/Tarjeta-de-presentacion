@@ -4,25 +4,27 @@
 
 body{
     background: rgb(49, 34, 255);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    width: 300px;
+    display: flex;
 }
 
 section{
-    display: grid;
-    justify-content: center;
+    height: 500px;
 }
 
 .card{
-    direction: center;
-    height: 500px;
-    width: 300px;
+    width: 100%;
+    height: 100%;
     background: rgb(123, 138, 138);
-    
     border-radius: 20px;
-    margin: 100px;
-    border: 2px rgb(183, 175, 175);
 }
 
 .card div{
+    margin: 0 auto;
     position: relative;
     height: 150px;
     width: 150px;
@@ -52,21 +54,25 @@ section{
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
     text-align: center;
-   
 }
 
 .datos-personales{
-    display: grid;
-    position: relative;
+    padding: 11px;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
 }
 
 .skills {
     font-size: 12px;
     font-family: 'Quicksand', sans-serif;
-    position: absolute;
-    text-align: left;
-    
 }
+
+ul{
+    padding-left: 0px;
+}
+
 .skills strong{
     font-size: 15px;
 }
@@ -74,10 +80,7 @@ section{
 .lista-contacto{
     font-size: 12px;
     font-family: 'Quicksand', sans-serif;
-    position: absolute;
-    margin-right: 20px;
-    margin-left: 18px;
-    padding: 0;
+    padding-left: 0px
 }
 
 .lista-contacto strong{
