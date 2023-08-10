@@ -8,6 +8,7 @@ body{
     background-image: url(./assets/images/pexels-pew-nguyen-13162091.jpg);
     background-size: cover;
     margin: 0;
+    color: white;
 }
 
 h2{
@@ -40,9 +41,9 @@ h3{
     grid-template-rows: 1fr 1fr 1fr 3fr;
     height: 500px;
     width: 300px;
-    background: rgba(255, 255, 255, .25);
+    background: rgba(15, 15, 15, 0.404);
     backdrop-filter: blur(5px);
-    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    border: 1.5px solid rgba(71, 71, 71, 0.205);
     border-radius: 5%;
 }
 .card div{
@@ -92,12 +93,13 @@ h3{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-.lista-contacto img{
-    width: 15px;
+.lista-contacto i{
+    font-size: 15px;
     padding: 10px;
+    color: white;
 }
 
 .lista-contacto p{
